@@ -1,0 +1,94 @@
+:root {
+  --main-color: #24323d;
+  --container-color:#17b288;
+
+}
+
+body {
+    background: #24323d;
+}
+
+/* form {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #24323d;
+    padding: 50px;
+    margin: 10px;
+} */
+
+form {
+    display: grid;
+    background:#24323d;
+    padding: 10px;
+    margin:10px;
+    justify-content: center;
+  }
+
+a {
+    text-decoration: none;
+}
+
+.connection {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.Sign {
+    border:1px solid black;
+    width: 200px;
+    height: 10px;
+    color: white;
+    background-color: #17b288;
+    padding: 20px 50px;
+}
+
+.Log {
+    border:1px solid black;
+    width: 200px;
+    height: 10px;
+    color: white;
+    background-color: #435257;
+    padding: 20px 50px;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin: 0;
+    margin-top: 30px;
+}
+
+input {
+    background-color: #435257;
+    text-decoration: rgb(255, 255, 255);
+    padding: 10px ;
+    margin: 10px;
+    width: 188px;
+}
+
+.name {
+    display: table;
+    height: 10px;
+    justify-content: space-between;
+}
+
+.mail, .password {
+    display: block;
+    width: 420px;
+    height: 10px;
+    justify-items: left;
+}
+
+.getstarted {
+    color: white;
+    background-color: #17b288;
+    padding: 10px 100px;
+    font-size: 1rem;
+    margin: 20px;
+
+}

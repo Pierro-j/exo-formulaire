@@ -8,20 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-    <form name="formulaire" method="post">
-        <div>
-            <a href="#">Get Started</a>
-            <a href="#">Sign Up</a>
-        </div>
+
+    <div class="connection">
+        <a href="" class="Sign">Sign up</a>
+        <a href="" class="Log">Log in</a>
+    </div>
         <h2>Sign Up for Free</h2>
-        <div>
-            <input type="text" name="firstNameInput" id="firstNameInput" placeholder="First Name" required> 
+    <form name="formulaire" method="post">
+  
+        <div class="name">
+            <input type="text" name="firstNameInput" id="firstNameInput" placeholder="First Name" required>
             <input type="text" name="lastNameInput" id="lastNameInput" placeholder="Last Name" required>
-            <input type="email" name="emailInput" id="emailInput" placeholder="Email Address" required>
-            <input type="password" name="passwordInput" id="passwordInput" placeholder="Set A Password" required>
-            <button type="submit">Get Started</button>
         </div>
+
+            <input class="mail" type="email" name="emailInput" id="emailInput" placeholder="Email Address" required>
+            <input  class="password" type="password" name="passwordInput" id="passwordInput" placeholder="Set A Password" required>
+            <button class="getstarted" type="submit">Get Started</button>
     </form>
-    
+
 </body>
 </html>
